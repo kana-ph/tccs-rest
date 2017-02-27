@@ -15,7 +15,8 @@ class Role implements Serializable {
 		authority blank: false, unique: true
 	}
 
-	static mapping = {
-		cache true
-	}
+    static mapping = {
+    	cache true
+        id generator:'sequence', column:'id', params:[sequence:'user_info_sequence']
+    }
 }

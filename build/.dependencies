@@ -11,6 +11,7 @@ dependencies:
 - file:/home/ichi/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.1.2.Final/2fb20acec888b23814d6e268e70902f417793e43/hibernate-core-5.1.2.Final.jar
 - file:/home/ichi/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-ehcache/5.1.2.Final/7157b9e943d101ba852d0868169c89c53ae1bb3a/hibernate-ehcache-5.1.2.Final.jar
 - file:/home/ichi/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.1/62998dc11053792cedfb979ffc94921d346eaeb6/spring-security-core-3.1.1.jar
+- file:/home/ichi/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.4-1201-jdbc41/870b0e689b514304461a9c1aba11920dc5de4321/postgresql-9.4-1201-jdbc41.jar
 - file:/home/ichi/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-grails/2.11.6/6e61dee04961f9063561752ec27cf556e2924076/asset-pipeline-grails-2.11.6.jar
 - file:/home/ichi/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.193/369b51e2090c4e6714d9d5e42010b6330c2cea26/h2-1.4.193.jar
 - file:/home/ichi/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.2.6/4f441539c9a2477fea544da29ae8398709524c3/grails-plugin-testing-3.2.6.jar
