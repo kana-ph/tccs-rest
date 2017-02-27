@@ -13,6 +13,7 @@ class User implements Serializable {
 
 	String username
 	String password
+	String pinCode
 	boolean enabled = true
 	boolean accountExpired
 	boolean accountLocked
@@ -24,16 +25,24 @@ class User implements Serializable {
 
 	def beforeInsert() {
 		encodePassword()
+		encodePinCode()
 	}
 
 	def beforeUpdate() {
 		if (isDirty('password')) {
 			encodePassword()
 		}
+		if (isDirty('pinCode')) {
+			encodePinCode()
+		}
 	}
 
 	protected void encodePassword() {
 		password = springSecurityService?.passwordEncoder ? springSecurityService.encodePassword(password) : password
+	}
+
+	protected void encodePinCode() {
+		pinCode = springSecurityService?.passwordEncoder ? springSecurityService.encodePassword(pinCode) : pinCode
 	}
 
 	static transients = ['springSecurityService']

@@ -1,0 +1,6 @@
+#Mon, 27 Feb 2017 21:51:57 +0800
+
+grails.env=development
+info.app.version=0.1
+info.app.grailsVersion=3.2.6
+info.app.name=tccs-rest
