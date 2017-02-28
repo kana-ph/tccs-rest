@@ -67,6 +67,8 @@ class UserController {
         render status: HttpStatus.NO_CONTENT
     }
 
+	def index() {} 
+
     private Department fetchDepartment(String name) {
         return departmentService.fetchByName(name)
     }

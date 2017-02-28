@@ -94,7 +94,6 @@ dataSource:
     driverClassName: org.h2.Driver
     username: sa
     password:
-    logSql: true
 
 environments:
     development:
@@ -102,7 +101,7 @@ environments:
             dbCreate: create
             url: jdbc:postgresql://localhost:5432/tccs
             username: postgres
-            password: InnaGwapa11790
+            password: pepsicokeroyal
             driverClassName: org.postgresql.Driver
     test:
         dataSource:

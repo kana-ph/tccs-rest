@@ -3,12 +3,6 @@ package edu.cit.tccs
 class UrlMappings {
 
     static mappings = {
-        "/$controller/$action?/$id?(.$format)?"{
-            constraints {
-                // apply constraints here
-            }
-        }
-
         "/api/v1/user"(controller: 'user') {
             action = [GET: 'showAll', POST: 'save']
         }
@@ -17,7 +11,13 @@ class UrlMappings {
             action = [GET: 'show', PUT: 'update', DELETE: 'delete']
         }
 
+		"/user"(controller: 'user', action: 'index', method: 'GET')
+		"/user/create"(controller: 'user', action: 'create', method: 'GET')
+		"/user/edit"(controller: 'user', action: 'edit', method: 'GET')
+
         "/"(view:"/index")
+		"/index"(view: '/dashboard')
+
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
